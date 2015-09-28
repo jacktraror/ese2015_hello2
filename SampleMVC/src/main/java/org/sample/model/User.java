@@ -18,6 +18,9 @@ public class User {
     private String lastName;
     private String email;
     
+    @OneToOne(cascade = {CascadeType.REFRESH})
+    private Team team;
+    
     @OneToOne(cascade = {CascadeType.ALL})
     private Address address; 
     
@@ -59,6 +62,14 @@ public class User {
 
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+
+	public Team getTeam() {
+		return team;
+	}
+
+	public void setTeam(Team team) {
+		this.team = team;
 	}
 
     

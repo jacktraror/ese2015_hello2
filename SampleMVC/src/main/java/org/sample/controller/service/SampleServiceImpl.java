@@ -44,6 +44,8 @@ public class SampleServiceImpl implements SampleService {
         user.setLastName(signupForm.getLastName());
         user.setAddress(address);
         
+        user.setTeam(teamDao.findOne((long)signupForm.getTeam()));
+        
         user = userDao.save(user);   // save object to DB
         
         
