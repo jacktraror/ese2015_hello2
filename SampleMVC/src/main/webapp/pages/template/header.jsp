@@ -43,8 +43,9 @@
 							<ul>
 								<li><a href="index.html">Welcome</a></li>
 								<li>
-									<a href="">Dropdown</a>
+									<a href="">Menu</a>
 									<ul>
+										<li><a href="newTeam.html">Create New Team</a></li>
 										<li><a href="#">Lorem ipsum dolor</a></li>
 										<li><a href="#">Magna phasellus</a></li>
 										<li>

@@ -44,7 +44,7 @@
             <div class="controls">
             	
                 <form:select path="team">
-                  	<form:options items="${teams}" itemValue="id" itemLabel="id"/>
+                  	<form:options items="${teams}" itemValue="id" itemLabel="teamName"/>
                 </form:select>
                 <form:errors path="team" cssClass="help-inline" element="span"/>
             </div>
